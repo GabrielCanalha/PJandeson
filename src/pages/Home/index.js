@@ -1,24 +1,24 @@
+//Criação da pagina Home
+
 import React from 'react';
-import { View, Text } from 'react-native';
+import {StyleSheet, View, Text } from 'react-native';
+import Header from '../../components/Header';
+//import { NavigationContainer } from '@react-navigation/native';
+//import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 export default function Home() {
   return (
-    <View>
-      <Text>Home Screen</Text>
+    <View style={styles.container}>
+      <Header/>
+      <Text>LANCHONETE CANTINA</Text>
     </View>
   );
 }
 
-/*const Stack = createNativeStackNavigator();
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+});
 
-function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
-
-export default App;*/
