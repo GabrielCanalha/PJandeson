@@ -49,6 +49,10 @@ const style = StyleSheet.create({
     buttonUser:{
         width: 44,
         height: 44,
+        backgroundColor:'rgba(255, 255, 255, 0.2)',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 44 / 2,
     }
 
 })
