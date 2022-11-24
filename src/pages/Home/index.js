@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Header/>
-      <Text>LANCHONETE CANTINA</Text>
+      <Text>RESTO DA PAGINA A CONSTRUIR</Text>
     </View>
   );
 }
