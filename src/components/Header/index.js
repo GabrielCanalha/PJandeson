@@ -12,11 +12,11 @@ import { Ionicons } from '@expo/vector-icons';
 
 const StatusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
 
-export default function Header(){
+export default function Header( {name} ){
     return(
         <View style={style.container}>
             <View style={style.content}>
-                <Text style={style.username}>LANCHONETE CANTINA</Text>
+                <Text style={style.username}>{name}</Text>
 
                 <TouchableOpacity activeOpacity={0.9} style={style.buttonUser}>
                     <Ionicons name="restaurant" size={30} color="#fff" />
